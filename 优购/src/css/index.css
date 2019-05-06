@@ -1,0 +1,378 @@
+body {
+  color: #3c3c3c;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f4f4f4; }
+
+html,
+body {
+  width: 100%;
+  background: #fff; }
+
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5 tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif; }
+
+header {
+  width: 100%;
+  height: 40px;
+  background: #333; }
+  header .wrapper {
+    width: 1190px;
+    margin: 0 auto;
+    color: #ccc; }
+    header .wrapper .left-content {
+      float: left; }
+      header .wrapper .left-content li {
+        float: left; }
+        header .wrapper .left-content li a {
+          color: #fff;
+          line-height: 40px;
+          margin-right: 30px; }
+    header .wrapper .right-content {
+      float: right;
+      width: 300px; }
+      header .wrapper .right-content li {
+        float: left; }
+        header .wrapper .right-content li a {
+          color: #fff;
+          line-height: 40px;
+          margin-right: 30px; }
+      header .wrapper .right-content .notice-top {
+        float: left;
+        color: #fff; }
+
+.logo {
+  width: 1190px;
+  margin: 0 auto;
+  height: 219px; }
+  .logo .header-logo {
+    height: 168px; }
+    .logo .header-logo img {
+      display: block;
+      margin: 0 550px 0 550px;
+      line-height: 168px;
+      padding-top: 55px; }
+  .logo .nav-container {
+    height: 50px; }
+    .logo .nav-container li {
+      float: left;
+      width: 80px;
+      height: 20px;
+      vertical-align: middle;
+      font-size: 20px; }
+      .logo .nav-container li a {
+        color: #333;
+        font-weight: bold;
+        font-size: 20px;
+        display: block; }
+
+.nav-container .search-wrapper {
+  width: 160px;
+  height: 20px;
+  border-bottom: 1px solid #ccc;
+  float: right;
+  padding-top: 20px; }
+  .nav-container .search-wrapper .keyword {
+    width: 140px;
+    height: 20px;
+    border: 0;
+    outline: 0;
+    float: left; }
+
+.nav-container li a:hover {
+  text-decoration: underline; }
+
+#nav-container-down dl {
+  float: left; }
+  #nav-container-down dl dt {
+    float: left; }
+    #nav-container-down dl dt a {
+      color: #666; }
+  #nav-container-down dl dd {
+    float: left; }
+    #nav-container-down dl dd a {
+      color: #666; }
+
+#newthing .newthing-title {
+  width: 100%;
+  margin: 66px 0 30px 0; }
+  #newthing .newthing-title .title {
+    font-size: 42px;
+    font-weight: 600;
+    color: #333;
+    text-align: center; }
+  #newthing .newthing-title .tabs {
+    margin: 25px auto 40px;
+    text-align: center; }
+    #newthing .newthing-title .tabs a {
+      color: #333;
+      padding: 0 10px;
+      font-size: 16px; }
+
+#newthing {
+  width: 1190px;
+  margin: 0 auto; }
+  #newthing .pic-left {
+    left: 0;
+    top: 40%;
+    background: url(https://pcs1.ygimg.cn/template/common/images/sf-ico.png) no-repeat 0 -71px;
+    width: 12px;
+    height: 22px;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer; }
+  #newthing .swiper-sub-item {
+    display: inline-block;
+    width: 210px;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    margin-left: 30px; }
+
+#command-brand {
+  clear: both; }
+  #command-brand .command-title {
+    width: 100%;
+    margin: 66px 0 30px 0; }
+    #command-brand .command-title .title {
+      font-size: 42px;
+      font: weight 600;
+      color: #333;
+      text-align: center; }
+    #command-brand .command-title .tabs {
+      margin: 25px auto 40px;
+      text-align: center;
+      color: #666; }
+      #command-brand .command-title .tabs a {
+        color: #333;
+        padding: 0 10px;
+        font-size: 16px; }
+        #command-brand .command-title .tabs a .active {
+          text-decoration: underline; }
+
+#command-brand .panels {
+  width: 100%;
+  padding-top: 60px; }
+  #command-brand .panels .threepic {
+    width: 990px;
+    margin: 0 auto; }
+    #command-brand .panels .threepic li {
+      float: left; }
+      #command-brand .panels .threepic li a {
+        display: block;
+        color: #666;
+        text-decoration: none; }
+        #command-brand .panels .threepic li a img {
+          vertical-align: middle;
+          border: 0;
+          margin-right: 15px; }
+
+#command-brand .hide {
+  display: none; }
+
+#command-brand .swiper-logo {
+  width: 990px;
+  margin: 0 auto;
+  padding: 66px 0;
+  height: 40px;
+  position: relative;
+  overflow: hidden; }
+  #command-brand .swiper-logo .swiper-container {
+    width: 920px;
+    height: 100%;
+    font-size: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    backface-visibility: hidden;
+    z-index: 1; }
+    #command-brand .swiper-logo .swiper-container a {
+      width: 68px;
+      height: 31px;
+      display: inline-block;
+      margin: 0 12px; }
+
+#command-brand .arrow-left {
+  left: 0;
+  top: 42%;
+  background: url(https://pcs1.ygimg.cn/template/common/images/sf-ico.png) no-repeat 0 -71px;
+  width: 12px;
+  height: 22px;
+  display: inline-block;
+  position: absolute;
+  cursor: pointer; }
+#command-brand .arrow-right {
+  right: 0;
+  top: 42%;
+  background: url(https://pcs1.ygimg.cn/template/common/images/sf-ico.png) no-repeat -13px -71px;
+  width: 12px;
+  height: 22px;
+  display: inline-block;
+  position: absolute;
+  cursor: pointer; }
+
+#brand-fashion {
+  width: 100%;
+  margin: 66px 0 30px 0; }
+  #brand-fashion .title {
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center; }
+  #brand-fashion .en-title {
+    font-size: 24px;
+    text-align: center; }
+
+#brand-fashion .pic-4 {
+  width: 1190px;
+  margin: 0 auto; }
+  #brand-fashion .pic-4 ul {
+    width: 990px;
+    font-size: 0;
+    margin-bottom: 110px;
+    margin-top: 300px;
+    margin: 0 auto; }
+    #brand-fashion .pic-4 ul li {
+      float: left;
+      margin-right: 15px;
+      position: relative; }
+
+#footer-top {
+  overflow: hidden;
+  width: 100%;
+  background: #333;
+  border-bottom: 1px solid #666; }
+  #footer-top .container {
+    width: 1190px;
+    margin: 0 auto; }
+    #footer-top .container .customer-service {
+      border-bottom: #666;
+      color: #fff; }
+      #footer-top .container .customer-service .content {
+        margin-top: 46px;
+        margin-bottom: 42px;
+        font-size: 18px; }
+        #footer-top .container .customer-service .content li {
+          display: inline-block; }
+          #footer-top .container .customer-service .content li .title {
+            vertical-align: middle;
+            margin-left: 10px; }
+            #footer-top .container .customer-service .content li .title a {
+              color: #fff;
+              margin-right: 25px; }
+
+#footer-top .icon1 {
+  width: 27px;
+  height: 27px;
+  background: url(https://pcs1.ygimg.cn/template/common/images/css_sprites.png) -10px -10px;
+  vertical-align: middle;
+  display: inline-block; }
+#footer-top .icon2 {
+  width: 27px;
+  height: 27px;
+  background: url(https://pcs1.ygimg.cn/template/common/images/css_sprites.png) -57px -57px;
+  vertical-align: middle;
+  display: inline-block; }
+#footer-top .icon3 {
+  width: 27px;
+  height: 27px;
+  background: url(https://pcs1.ygimg.cn/template/common/images/css_sprites.png) -10px -57px;
+  vertical-align: middle;
+  display: inline-block; }
+#footer-top .icon4 {
+  width: 27px;
+  height: 27px;
+  background: url(https://pcs1.ygimg.cn/template/common/images/css_sprites.png) -57px -10px;
+  vertical-align: middle;
+  display: inline-block; }
+
+#footer-help {
+  overflow: hidden;
+  width: 100%;
+  background: #333;
+  border-bottom: 1px solid #666; }
+  #footer-help .container {
+    width: 1190px;
+    margin: 0 auto; }
+    #footer-help .container .all-list li {
+      display: inline-block; }
+      #footer-help .container .all-list li dt {
+        color: #fff;
+        margin-left: 40px;
+        margin-bottom: 15px; }
+
+#footer-help .item {
+  margin-left: 90px; }
+#footer-help dd {
+  display: block;
+  margin-inline-start: 40px; }
+  #footer-help dd .title-first {
+    margin-top: 20px; }
+  #footer-help dd .title-second {
+    margin-top: 15px; }
+  #footer-help dd a {
+    color: #666; }
+
+#footer-help {
+  width: 100%; }
+  #footer-help .content2 {
+    color: #fff; }
+    #footer-help .content2 .pic-left {
+      display: inline-block;
+      margin-top: 160px;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px; }
+      #footer-help .content2 .pic-left .item {
+        margin-left: 12px; }
+      #footer-help .content2 .pic-left li {
+        display: inline-block; }
+        #footer-help .content2 .pic-left li a {
+          color: #666; }
+          #footer-help .content2 .pic-left li a img {
+            vertical-align: middle; }
+
+#footer-help .pic-right {
+  margin-left: 200px;
+  vertical-align: bottom;
+  display: inline-block; }
+  #footer-help .pic-right .pic2 {
+    margin-left: 54px; }
+  #footer-help .pic-right li {
+    display: inline-block; }
+    #footer-help .pic-right li .title {
+      text-align: center; }
+    #footer-help .pic-right li .border {
+      width: 120px;
+      height: 120px;
+      text-align: center;
+      background: #fff;
+      margin-bottom: 12px; }
+      #footer-help .pic-right li .border .img-app {
+        margin-top: 8px;
+        vertical-align: middle; }
+
+#footer-help .content3 {
+  margin-top: 25px; }
+  #footer-help .content3 li {
+    display: inline-block; }
+    #footer-help .content3 li a {
+      color: #fff; }
+    #footer-help .content3 li .first-title {
+      margin-right: 10px; }
+    #footer-help .content3 li .title {
+      display: inline-block;
+      margin: 0 10px; }
+
+#footer-help .content4 {
+  margin-top: 15px;
+  margin-bottom: 35px;
+  color: #fff; }
+
+/*# sourceMappingURL=index.css.map */
